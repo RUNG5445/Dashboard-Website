@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71e495a39e980e6bebe064e2eff839e1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_71e495a39e980e6bebe064e2eff839e1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_71e495a39e980e6bebe064e2eff839e1 = L.map(
+                "map_71e495a39e980e6bebe064e2eff839e1",
+                {
+                    center: [13.6500864375, 100.67386762499997],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a69467f0e292e1959148c88701add420 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_71e495a39e980e6bebe064e2eff839e1);
+        
+    
+            var feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902 = L.featureGroup(
+                {}
+            ).addTo(map_71e495a39e980e6bebe064e2eff839e1);
+        
+    
+            var marker_539746e5bf378ec98293462405f45132 = L.marker(
+                [13.721083, 100.763727],
+                {"title": "Time = 07:01:52\nTemperature = 30.69\u00b0C\nHumidity = 66.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_83eb8285cf64faaaac3b9f35c974b4fe = L.marker(
+                [13.722898, 100.773466],
+                {"title": "Time = 15:24:01\nTemperature = 28.74\u00b0C\nHumidity = 64.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_9eca87dacabc1744c3972ce1bc0dff53 = L.marker(
+                [13.721235, 100.714301],
+                {"title": "Time = 15:37:04\nTemperature = 29.88\u00b0C\nHumidity = 65.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_2937d21a5867389b6f34d7f49cb2c591 = L.marker(
+                [13.712956, 100.64241],
+                {"title": "Time = 15:50:13\nTemperature = 30.12\u00b0C\nHumidity = 65.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_0edccfd333128f04f380095fac298bce = L.marker(
+                [13.656516, 100.642102],
+                {"title": "Time = 16:03:16\nTemperature = 30.19\u00b0C\nHumidity = 64.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_4071c7dbac8691cc0c6fee87f26d3717 = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 16:29:32\nTemperature = 31.6\u00b0C\nHumidity = 65.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_741f30018a20335765d3d5ff8197f91f = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 16:42:35\nTemperature = 32.01\u00b0C\nHumidity = 65.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_620fc817d06b17587ddb93acfa2cf76a = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 17:08:43\nTemperature = 32.39\u00b0C\nHumidity = 66.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_bb6fae8c67594b149dc7b8fb81bcf0e5 = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 17:21:50\nTemperature = 32.58\u00b0C\nHumidity = 66.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_28fc555ed6dc4accd020d91352ff20fc = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 17:34:55\nTemperature = 32.71\u00b0C\nHumidity = 66.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_cb84624c59aa134049bc8011c4e6b2dd = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 17:47:59\nTemperature = 32.78\u00b0C\nHumidity = 66.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_3e3a99ee66f00429291a82dc08f4ef75 = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 18:01:09\nTemperature = 32.82\u00b0C\nHumidity = 67.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_2a0e584ab2f1a8412fedadd72b64c0a3 = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 18:14:13\nTemperature = 32.87\u00b0C\nHumidity = 67.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_962cbc2d949fb4f3b118f2e0e33978df = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 18:27:18\nTemperature = 32.87\u00b0C\nHumidity = 67.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_584db709d9a0e0862b11efbd8a09b8fd = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 18:40:21\nTemperature = 32.93\u00b0C\nHumidity = 67.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+    
+            var marker_c9f47d54ce4ed5c423017ca186d2026f = L.marker(
+                [13.624245, 100.658716],
+                {"title": "Time = 18:53:27\nTemperature = 32.92\u00b0C\nHumidity = 67.0%"}
+            ).addTo(feature_group_9a4b7fc8ab89fa0ca569ae30cea0d902);
+        
+</script>
+</html>

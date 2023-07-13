@@ -15,10 +15,10 @@ import os
 
 def getfileFTP():
     # Set up connection details
-    host = '188.166.217.51'
-    port = 7021
-    usr = 'tung'
-    pwd = 'anundaJJ795'
+    host = 'REPLACE_WITH_FTPS_HOST'
+    port = REPLACE_WITH_FTPS_PORT
+    usr = 'REPLACE_WITH_USERNAME'
+    pwd = 'REPLACE_WITH_PASSWORD'
 
     # Connect to FTP server
     ftp = FTP_TLS()

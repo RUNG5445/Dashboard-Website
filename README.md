@@ -1,5 +1,5 @@
 
-# Dashboard Website for Monitoring Humidity, Temperature, and Container Location using Django
+# Dashboard Website for Monitoring Humidity, Temperature, and Container using Django
 
 This project aims to develop a comprehensive dashboard website that enables real-time monitoring of humidity, temperature, and the position of containers. The dashboard will be built using the Django framework, which provides a robust and scalable foundation for web development.
 
